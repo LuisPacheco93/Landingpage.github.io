@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+ 
+}
+p{
+    color: brown;
+}
+.header{
+    height: 4em;
+    padding: 2em;
+    font-size: 2em;
+    background-image: url("../imgs/consolas.jpg");
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+
+}
+.header h1{
+    margin: 0px;
+    font-weight: 200;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+    font-size: 60px;
+    color: rgb(190, 54, 42);
+}
+h4{
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+    font-size: 25px;
+    color: rgb(199, 41, 41);
+}
+.products{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; 
+}
+.products td{
+    width: 50%;
+    padding: 2em;
+
+    
+}
+.products img{
+    width: 100%;
+    border: solid 10px rgb(0, 0, 0);
+}
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
